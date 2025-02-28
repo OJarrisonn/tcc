@@ -101,6 +101,8 @@ be handled are:
 
 - **Terminal**: handles terminal interactions
 
+- Git: will do git operations
+
 The amount of messages each actor receives is a good indicator that the actor is not
 doing too much. If an actor receives too many messages, it might be a good idea to
 refactor it into smaller actors.
